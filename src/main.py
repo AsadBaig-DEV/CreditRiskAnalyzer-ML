@@ -39,6 +39,7 @@ def main():
         print("\n=== FICO Rating Buckets ===")
         for idx, (low, high) in enumerate(buckets, start=1):
             print(f"Rating {idx}: {int(low)} - {int(high)}")
+            
     else:
         print("Invalid choice.")
 
